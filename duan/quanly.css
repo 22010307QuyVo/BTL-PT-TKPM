@@ -1,0 +1,60 @@
+
+a {
+    text-decoration: none;
+    color: black;
+}
+ul {
+    list-style-type: none;
+    padding: 0; /* Tùy chọn, giúp loại bỏ khoảng cách lề mặc định */
+}
+ul li {
+    display: inline-block;  /* Xếp các phần tử <li> thành hàng ngang */
+    margin-right: 30px;      /* Khoảng cách giữa các phần tử */
+    width: 200px;
+    height: 100px;
+    margin-right: 100px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    text-align: center;
+    line-height: 100px; /* Căn giữa nội dung theo chiều dọc */
+    font-size: 16px;
+    color: #333;
+    cursor: pointer; 
+}
+ul li:hover {
+    background-color: #007bff;
+    color: white;
+    transform: scale(1.1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+
+.image-container img {
+    width: 1500px;
+    height: 250px;
+    
+}
+.image-container h1{
+    color: red;
+    position: absolute;
+    left: 500px;
+    top: 100px;
+    opacity: 0.9;
+}
+
+.container{
+    border: 2px solid white;
+    padding-left: 100px;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #007bff;
+    width: 1500px;
+    height: 40px;
+}
+
